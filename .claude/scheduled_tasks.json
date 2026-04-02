@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "id": "a4b86d29",
+      "cron": "0 1 * * *",
+      "prompt": "获取 GitHub Trending Top 50，保存到 myos/01-灵感与素材库/1-日常灵感剪报/ 目录下，文件命名格式为 \"GitHub-Trending-YYYY-MM-DD.md\"，文件需要包含标准 YAML 头部（title, date, tags 等元数据）",
+      "createdAt": 1774802683024,
+      "lastFiredAt": 1775143209236,
+      "recurring": true
+    },
+    {
+      "id": "e0e9d76c",
+      "cron": "0 2 * * *",
+      "prompt": "使用 opencli-rs 获取 HackerNews Top 50，保存到 myos/01-灵感与素材库/1-日常灵感剪报/ 目录下，文件命名格式为 \"HackerNews-Top50-YYYY-MM-DD.md\"，文件需要包含标准 YAML 头部（title, date, tags 等元数据）",
+      "createdAt": 1774802703143,
+      "lastFiredAt": 1775143209236,
+      "recurring": true
+    },
+    {
+      "id": "33450ae2",
+      "cron": "0 9 6 4 *",
+      "prompt": "提醒用户重新设置定时任务：\n1. GitHub Trending Top 50（每天1点）\n2. HackerNews Top 50（每天2点）\n这两个任务7天前设置了，需要重新创建",
+      "createdAt": 1774802718391
+    },
+    {
+      "id": "17cd9867",
+      "cron": "30 3 * * *",
+      "prompt": "使用 opencli-rs 获取 B站（Bilibili）Top 50，保存到 myos/01-灵感与素材库/1-日常灵感剪报/ 目录下，文件命名格式为 \"Bilibili-Top50-YYYY-MM-DD.md\"，文件需要包含标准 YAML 头部（title, date, tags 等元数据）",
+      "createdAt": 1774802759786,
+      "lastFiredAt": 1775143209236,
+      "recurring": true
+    },
+    {
+      "id": "99eb89b7",
+      "cron": "30 2 * * *",
+      "prompt": "使用 opencli-rs 获取 Reddit Top 50，保存到 myos/01-灵感与素材库/1-日常灵感剪报/ 目录下，文件命名格式为 \"Reddit-Top50-YYYY-MM-DD.md\"，文件需要包含标准 YAML 头部（title, date, tags 等元数据）",
+      "createdAt": 1774802785316,
+      "lastFiredAt": 1775143209236,
+      "recurring": true
+    },
+    {
+      "id": "d485532e",
+      "cron": "30 1 * * *",
+      "prompt": "使用 opencli-rs 获取 X (Twitter) Top 50，保存到 myos/01-灵感与素材库/1-日常灵感剪报/ 目录下，文件命名格式为 \"X-Top50-YYYY-MM-DD.md\"，文件需要包含标准 YAML 头部（title, date, tags 等元数据）",
+      "createdAt": 1774802807337,
+      "lastFiredAt": 1775143209236,
+      "recurring": true
+    }
+  ]
+}
